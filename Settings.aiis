@@ -7,7 +7,7 @@
     "SkipDeleteElementPrompt": false,
     "HideFindExpressionWelcome": false,
     "MenuHoldTime": 1.0,
-    "SilverlightConnectTimeout": 60001,
+    "SilverlightConnectTimeout": 60000,
     "BaseClassName": "BaseWebAiiTest",
     "UrlRecordMode": 2,
     "HighlightBorderColor": -65536,
@@ -169,14 +169,14 @@
     "QuickExecutionElementWaitTimeout": 15000,
     "QuickExecutionClientReadyTimeout": 60000,
     "QcServerUrl": null,
-    "QcUserName": "webui",
-    "QcPassword": "Bt6/TQp8sw8=",
-    "QcSkipAuthDialog": true,
+    "QcUserName": "",
+    "QcPassword": "",
+    "QcSkipAuthDialog": false,
     "QcDomain": null,
     "QcProject": null,
     "TfsUserName": "",
     "TfsPassword": "",
-    "TfsSkipAuthDialog": false,
+    "TfsSkipAuthDialog": true,
     "TfsDomain": "",
     "TeamPulseServerUrl": "",
     "TpUserName": "",
@@ -189,8 +189,20 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "d0958ad3-8052-4115-b2cd-30435e861002",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/shtilianov/new22.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/shtilianov/new22.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
@@ -217,13 +229,18 @@
     "ExcludedFiles": [],
     "InDevelopmentFiles": [],
     "DisabledTranslators": [],
-    "SkipFindExpressionSetDataDrivenWarning": true,
+    "SkipFindExpressionSetDataDrivenWarning": false,
     "BugTrackerPersistableSettings": {},
     "ActiveBugTrackers": [],
     "BugTitleMask": "{Step name} step on {Test name} test failed.",
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-    "SelectedBrowserOption": 3
+    "SelectedBrowserOption": 0,
+    "SelectedResponsiveBrowserOption": 0,
+    "ResponsiveBrowserDevice": "iPhone 11",
+    "ResponsiveBrowserWidth": 414,
+    "ResponsiveBrowserHeight": 896,
+    "ResponsiveBrowserUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1. 38 (KHTML, like Gecko) Version/11.0 Mobile/15A356 Safari/604.1"
   }
 }
